@@ -17,4 +17,24 @@ puts markdown.to_html
 ```
 
 
-![Uploading svgviewer-output (11)<svg width="500" height="300" style="border:1px red solid" xmlns="http://www.w3.org/2000/svg">
+# My SVG Example
+
+This is an example of an SVG that showcases a hover effect. 
+
+```html
+<svg width="500" height="300" style="border:1px red solid" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .node {
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .node:hover {
+            background-color:red;
+        }
+    </style>
+    <foreignObject class="node" x="0" y="0" width="100" height="100">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Hi! I'm a developer</p>  
+        </body>
+    </foreignObject>
+</svg>
