@@ -17,3 +17,10 @@ puts markdown.to_html
 ```
 
 
+![Uploading svgviewer-output (12).svg…]()
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40">
+        <animate attributeName="fill" values="blue;red;green;blue" dur="3s" repeatCount="indefinite" />
+    </circle>
+</svg>
