@@ -16,5 +16,4 @@ puts markdown.to_html
 @@ text in purple (and bold)@@
 ```
 
-![svgviewer-output (7)](https://github.com/user-attachments/assets/7e34b885-3423-40eb-ad16-612deda72132)
 
