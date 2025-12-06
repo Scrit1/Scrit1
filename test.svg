@@ -1,24 +1,56 @@
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-    .container {
-        width: 100%;
-        height: 100%;
-        background-color:black;
-        font-family: monospace;
-    }
-    h1 {
-        color:white
-    }
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .container {
+                    width: 600px;
+                    height: 300px;
+                    background-color: black;
+                    font-family: monospace;
+                    border: 1px white;
+                    border-radius: 10px;
+                }
 
+                p {
+                    color: white;
+                }
 
-      </style>
+                #cool {
+                  color:white;
+                                  position: relative;
+                    text-align: center;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
 
-      <div class="container">
-        <h1>Hello there!</h1>
-                <input></input>
-      </div>
-    </div>
-  </foreignObject>
+                #hi {
+                    color: #66cccc;
+                }
+                #there {
+                    color:#f2777a
+                }
+                #orange {
+                    color:#f99157
+                }
+                #purple {
+                    color:#cc99cc;
+                }
+            </style>
+
+            <div class="container">
+                <div id="cool">
+                    <a id="hi">Hello</a>
+                    <a id="there">there</a>, 
+                    <a id="orange">I</a>
+                    <a id="purple">'m</a>
+                    <a id="orange">Scrit</a>, <a id="orange">I</a>
+                    <a id="purple">like</a>
+                           <a id="orange" href="http://en.wikipedia.org/wiki/Web_development">web development</a>
+
+                            
+                </div>
+            </div>
+        </div>
+    </foreignObject>
 </svg>
