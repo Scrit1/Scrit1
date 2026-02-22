@@ -64,7 +64,7 @@
                     position: absolute;
                     width: 100%;
                     height: 100%;
-                    background-image: url(scrit1logo.png);
+                    background-image: url(https://github.com/Scrit1/Scrit1/blob/main/scrit1logo.png?raw=true);
                     background-size: cover;
                     /* or contain, or 100% 100% */
                     background-repeat: no-repeat;
