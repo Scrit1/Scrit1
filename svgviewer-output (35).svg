@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+  <foreignObject x="0" y="0" width="400" height="400">
+    <div class="cube2" xmlns="http://www.w3.org/1999/xhtml">
+      <div class="side front">
+        Scrit1
+      </div>
+      <div class="side back">
+        6
+      </div>
+      <div class="side right">
+        4
+      </div>
+      <div class="side left">
+        3
+      </div>
+      <div class="side top">
+        5
+      </div>
+      <div class="side bottom">
+        2
+      </div>
+    </div>
+    <style>
+      .cube2 { 
+  transform-style: preserve-3d;
+  transform: perspective(50cm) rotateX(10deg) rotateY(50deg);
+}
+      .cube2:hover {
+        transform: perspective(50cm) rotateX(10deg) rotateY(100deg);
+      }
+
+.side {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  background: rgba(100,100,100,0.3);
+  border: 1px solid red;
+  text-align: center;
+}
+
+.front {transform: translateZ(5em);}
+.top {transform: rotateX(90deg) translateZ(5em);}
+.right {transform: rotateY(90deg) translateZ(5em);}
+.left {transform: rotateY(-90deg) translateZ(5em);}
+.bottom {transform: rotateX(-90deg) translateZ(5em);}
+.back {transform: rotateY(-180deg) translateZ(5em);}
+    </style>
+  </foreignObject>
+</svg>
