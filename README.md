@@ -1,2 +1,1 @@
-<img src="test.svg">
-<img src="svgviewer-output (22).svg"> 
+<img src="3dCube.svg">
